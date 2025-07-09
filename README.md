@@ -120,8 +120,6 @@ The complete datapath and control flow is summarized below:
 
 Example waveform of a simple arithmetic instruction:
 
-![Waveform](images/waveform.png)
-
 ## Synthesis & Implementation (Quartus)
 
 1. Open Quartus and create a new project.
@@ -131,12 +129,3 @@ Example waveform of a simple arithmetic instruction:
 5. Assign FPGA pins for `clk`, `reset`, and 7‑segment outputs as per your board.
 6. Compile the design and review resource utilization and timing reports.
 
-## License & Attribution
-
-This project is provided for educational use. Feel free to modify and extend for your own research.
-
----
-
-**Author:** Stephen Singh
-
-**Contact:** [stephen.singh@example.com](mailto:stephen.singh@example.com)
