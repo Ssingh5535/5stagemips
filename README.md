@@ -58,7 +58,6 @@ The CPU implements the following sequence of stages, each separated by pipeline 
    * **Function:** Fetch instruction from instruction memory based on `PC`. Compute `PC + 4` for the next sequential fetch.
    * **Artifacts:** Output `instr` and `pc + 4` are stored in the IF/ID register.
 
-   ![IF Stage](images/if_stage.png)
 
 2. **Instruction Decode (ID)**
 
@@ -66,7 +65,6 @@ The CPU implements the following sequence of stages, each separated by pipeline 
    * **Function:** Decode opcode & funct fields to generate control signals. Read source registers from the register file. Sign-extend immediate values. Detect hazards.
    * **Artifacts:** Signals and operands forwarded into ID/EX register.
 
-   ![ID Stage](images/id_stage.png)
 
 3. **Execute (EX)**
 
@@ -85,7 +83,6 @@ The CPU implements the following sequence of stages, each separated by pipeline 
 
 The complete datapath and control flow is summarized below:
 
-![Pipeline Diagram](images/pipeline_diagram.png)
 
 ## Detailed Module Descriptions
 
